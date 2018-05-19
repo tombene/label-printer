@@ -1,0 +1,25 @@
+{
+  "name": "label-printer",
+  "version": "1.0.0",
+  "description": "Printing labels through various different methods",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thomas_benedict@bitbucket.org/thomas_benedict/label-printer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/thomas_benedict/label-printer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "serialport": "^6.2.0",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.1.3"
+  }
+}
